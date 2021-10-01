@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Algorithm {
 
 	public static void main(String[] args) {
-//		Q1.Fibonacci
+		
+//		Q1.Fibonacci series for inputed number
+		
 		Scanner console = new Scanner(System.in);
 		System.out.println("********Fibonacci Series*********");
 		System.out.println("Enter a number: ");
@@ -27,7 +29,10 @@ public class Algorithm {
 	        }
 	        System.out.println();
 	        System.out.println("********Armstrong Check*********");
-		// Q. 2 Armstrong num is when the sum of its cubes is equal to the num itself
+	        
+		// Q. 2 Check if number inputed is Armstrong 
+//	        number is armstrong when the sum of its cubes is equal to the number itself
+	        
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter a number: ");
 		int num = scanner.nextInt();
@@ -46,7 +51,8 @@ public class Algorithm {
 	    
 	    System.out.println("********Palindrone Check*********");
 	    
-	    //Q. 3
+	    //Q. 3 Check if string inputed is Palindrone
+	    
 	    Scanner scan = new Scanner(System.in);
 		System.out.println("Enter a String: ");
 		String s = scan.nextLine();
